@@ -51,7 +51,11 @@ def one(string):
 
 
 def two(num):
-    return
+    x = int(input("what is x"))
+    if x % x == 0 and x % 1 == 0: 
+        return True 
+    else:
+        return False
 
     # <QUESTION 3>
 
@@ -69,7 +73,11 @@ def two(num):
 
 
 def three(a):
-    return
+   a =int(input())
+   sum1= a+a
+   sum2 = a*a*a
+   sum3= a*a*a*a
+   return a+sum1+sum2+sum3
 
     # <QUESTION 4>
 
@@ -115,9 +123,10 @@ def four(string1, string2):
     # There is a module which can be used to generate random numbers, this module is called random.
     # The random module contains a function called randint.
 
-
+import random
 def five():
-    return
+    i=random.randint(range(100,200),5)
+    return i
 
     # <QUESTION 6>
 
@@ -137,7 +146,11 @@ def five():
 
 
 def six(string):
-    return
+    string(input())
+    if string == "py":
+        return True 
+    else:
+        return False
 
     # <QUESTION 7>
 
@@ -172,7 +185,7 @@ def seven(a, b, c):
 
     # <EXAMPLES>
 
-    # eight("Hello", 3) → "Ho"
+    # eight("Hello", 3) → "H
     # eight("Chocolate", 3) → "Choate"
     # eight("Chocolate", 1) → "Choclate"
 
@@ -219,4 +232,4 @@ def nine(string1, string2):
 
 
 def ten(a, b):
-    return
+    retur
